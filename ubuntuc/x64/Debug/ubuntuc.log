@@ -1,0 +1,13 @@
+﻿  main.c
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(149,10): warning C4098: “diamond”:“void”函数返回值
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(166,10): warning C4098: “test_goto”:“void”函数返回值
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(278,11): warning C4098: “print_rational”:“void”函数返回值
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(332,9): warning C4476: "printf": 格式说明符中的类型字段字符“b”未知
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(332,23): warning C4474: printf: 格式字符串中传递的参数太多
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(332,23): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(344,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(372,2): warning C4013: “kfft”未定义；假设外部返回 int
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(360,45): warning C4101: “t”: 未引用的局部变量
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(40): warning C4715: “absolute_value”: 不是所有的控件路径都返回值
+D:\desktop\Ubuntu_share\c\ubuntuc\ubuntuc\main.c(52): warning C4717: “factorial”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+  ubuntuc.vcxproj -> D:\desktop\Ubuntu_share\c\ubuntuc\x64\Debug\ubuntuc.exe
