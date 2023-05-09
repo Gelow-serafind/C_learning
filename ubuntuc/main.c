@@ -327,10 +327,7 @@ void str_init()
 	printf("%s\n", str);
 }
 
-void diff_and(unsigned int num1)
-{
-	printf("%#b\n", num1 + 0b1011);
-}
+
 
 
 int nmax(double arr[], int n)
@@ -347,36 +344,9 @@ int nmax(double arr[], int n)
 	}
 	return l;
 }
+
+
 int main()
 {
-	double Ts = 0.1;            //采样周期
-	double Fs = 1 / Ts;           //采样频率
-	double T = 8.0;             //信号周期
-	double f = 1 / T;             //信号频率
-	int n = 6;                  //2的n次方
-	int N = 64;           //采样点数
-	double F = Fs / N;            //频率分辨率
-
-	double pr[256], pi[256], fr[256], fi[256], t[256];
-	for (int i = 0; i < N; i++)
-	{
-		pr[i] = cos(2 * PI * f * i * Ts);
-		pi[i] = 0;
-		//printf("%lf\n",pr[i]);
-	}
-
-
-
-
-	printf("1\n");
-	kfft(pr, pi, 64, n, fr, fi);  //调用FFT函数
-	printf("1\n");
-	int nMax = N - nmax(pr, N);
-	double freq = nMax * F;
-	printf("%d,%lf\n", nMax, freq);
-	for (int i = 0; i < N; i++)
-	{
-	    //printf("%lf\n",pr[i]); //输出结果
-
-	}
+	
 }
